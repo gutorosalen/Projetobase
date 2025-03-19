@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: "inter";
+}
+#header {
+  display: flex;
+  width: auto;
+  height: 500px;
+  background-image: url(imagens/header1.svg);
+}
+h1 {
+  /* Dê os primeiros passos da sua carreira em Tecnologia */
+
+  position: absolute;
+  width: 536px;
+  height: 102px;
+  left: 172px;
+  top: 185px;
+
+  /* Hero */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 128.5%;
+  /* or 51px */
+
+  color: #ffffff;
+}
+p.M1 {
+  /* Inscreva-se no curso gratuito de Introdução à Tecnologia da DNC School e aprenda os principais fundamentos para construir experiências efetivas. */
+
+  position: absolute;
+  width: 536px;
+  height: 90px;
+  left: 172px;
+  top: 319px;
+
+  /* Corpo */
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+
+  color: #ffffff;
+}
+#image1 {
+  margin: 35px;
+  width: 125px;
+  height: 62px;
+}
+#menu1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #eaece5;
+  height: 150px;
+}
+.textinfor {
+  margin: 5px 5px;
+  color: black;
+  display: flex;
+  align-items: center;
+}
+.icon {
+  margin: 25px 25px 25px 25px;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+}
+#apresentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 60px 20px;
+  padding: 0;
+  width: 100%;
+  height: 280px;
+}
+.video {
+  margin: 0px 20px;
+  padding: 0;
+}
+.secao {
+  margin: 0px 35px;
+  padding: 0;
+}
+.secao p {
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 16px;
+  color: #383838;
+}
+.secao h2 {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 32px;
+  color: #247ba0;
+  margin: 0;
+}
+#carrosel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0;
+  width: 100%;
+  background: #247ba0;
+  height: 380px;
+}
+#tilcarrosel {
+  margin-top: 10px;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+}
+#cards {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  margin: 20px;
+  padding: 0;
+}
+#cards img {
+  margin: 30px 20px;
+}
+#esquerda {
+  display: none;
+  cursor: pointer;
+}
+#esquerda:hover {
+  transform: translateY(-12px);
+  transition-duration: 0.7s;
+}
+#direita {
+  cursor: pointer;
+}
+#direita:hover {
+  transform: translateY(-12px);
+  transition-duration: 0.7s;
+}
+#bruna {
+  display: none;
+}
+#formulario {
+  margin: 40px 0px;
+  padding: 0;
+  width: 100%;
+  background: #ffffff;
+  height: 500px;
+}
+#tilform {
+  font-family: "inter";
+  font-weight: 700;
+  text-align: center;
+  font-size: 32px;
+  color: black;
+  margin-bottom: 30px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+form input {
+  margin: 22px 0px;
+  padding: 10px;
+  width: 413px;
+  background: #eaece5;
+  border: none;
+  border-radius: 8px;
+  font-family: "inter";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: black;
+}
+#submit {
+  cursor: pointer;
+  width: 335;
+  height: 53;
+  top: 2028px;
+  left: 570px;
+  background: #247ba0;
+  font-family: "inter";
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+}
+#submit:hover {
+  transform: translateY(-15px);
+  transition-duration: 0.8s;
+}
